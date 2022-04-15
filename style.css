@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+}
+
+section {
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#particles-js {
+	position: relative;
+	height: 100vh;
+	background: #fff;
+	/* long hinh vo nhau ne */
+	mix-blend-mode: screen;
+}
